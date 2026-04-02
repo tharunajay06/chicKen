@@ -36,7 +36,10 @@ export default function ProfileScreen() {
         </View>
 
         <View style={styles.menuSection}>
-          <TouchableOpacity style={styles.menuItem}>
+          <TouchableOpacity 
+            style={styles.menuItem}
+            onPress={() => router.push('/addresses')}
+          >
             <View style={styles.menuIconContainer}>
               <Ionicons name="location" size={24} color="#FF6B35" />
             </View>
@@ -44,7 +47,10 @@ export default function ProfileScreen() {
             <Ionicons name="chevron-forward" size={20} color="#999" />
           </TouchableOpacity>
 
-          <TouchableOpacity style={styles.menuItem}>
+          <TouchableOpacity 
+            style={styles.menuItem}
+            onPress={() => router.push('/orders')}
+          >
             <View style={styles.menuIconContainer}>
               <Ionicons name="receipt" size={24} color="#FF6B35" />
             </View>

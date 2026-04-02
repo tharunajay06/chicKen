@@ -15,6 +15,10 @@ export default function RootLayout() {
             <Stack.Screen name="cart" options={{ headerShown: false }} />
             <Stack.Screen name="checkout" options={{ headerShown: false }} />
             <Stack.Screen name="order-success" options={{ headerShown: false }} />
+            <Stack.Screen name="orders" options={{ headerShown: false }} />
+            <Stack.Screen name="order-detail" options={{ headerShown: false }} />
+            <Stack.Screen name="addresses" options={{ headerShown: false }} />
+            <Stack.Screen name="address-form" options={{ headerShown: false }} />
           </Stack>
         </CartProvider>
       </AuthProvider>
